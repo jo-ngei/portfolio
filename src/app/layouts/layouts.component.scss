@@ -1,0 +1,18 @@
+.bg-image {
+    background-image: url('assets/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info {
+    background: linear-gradient(180deg, rgba(98, 99, 100, 0.9), rgba(20, 20, 20, 0.9));
+}
+
+.wrapper {
+    background: linear-gradient(180deg, rgba(98, 99, 100, 0.9), rgba(20, 20, 20, 0.9));
+}
+
+.footer {
+    background: rgba(20, 20, 20, 0.9);
+    padding: 100px
+}
