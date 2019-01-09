@@ -1,0 +1,90 @@
+.wrapper {
+    display: flex;
+}
+
+.sidebar-wrapper {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    min-width: 300px;
+    max-width: 300px;
+    color: #fff;
+    transition: all 0.3s;
+    min-height: 100vh;
+}
+
+.main-wrapper {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+    flex-grow: 1;
+}
+
+.sidebar {
+    .sidebar-header {
+        height: 100px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+    .sidebar-body {
+        .profile {
+            img {
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+            }
+            h4,
+            p {
+                text-align: center;
+            }
+        }
+        .sidebar-nav {
+            margin-top: 20px;
+            .card {
+                border-color: rgba(0, 0, 0, 0.2);
+                border-radius: none;
+                background-color: rgba(0, 0, 0, 0.2);
+            }
+        }
+        ul {
+            li a {
+                display: block;
+                padding: 10px;
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            .inner-list li a {
+                font-size: 1em;
+                padding-left: 20px;
+            }
+            li a:focus,
+            a:hover {
+                color: whitesmoke;
+                background: rgba(0, 0, 0, 0.9);
+            }
+        }
+    }
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width: 768px) {
+    .sidebar-wrapper {
+        margin-left: -300px;
+    }
+    .sidebar.active {
+        margin-left: 0;
+    }
+}

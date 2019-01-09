@@ -1,24 +1,75 @@
 [{
         "id": "1",
         "image": "assets/images/1.png",
-        "title": "Project 1",
+        "title": "Andeqa",
+        "framework": "android",
+        "language": "java",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
     },
 
     {
         "id": "2",
         "image": "assets/images/1.png",
-        "title": "Project 2",
+        "title": "Fab Player",
+        "framework": "android",
+        "language": "java",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
     }, {
         "id": "3",
         "image": "assets/images/1.png",
-        "title": "Project 3",
+        "title": "Handy",
+        "framework": "android",
+        "language": "java",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
     }, {
         "id": "4",
         "image": "assets/images/1.png",
-        "title": "Project 4",
+        "title": "Ongea",
+        "framework": "android",
+        "language": "kotling",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+    }, {
+        "id": "5",
+        "image": "assets/images/1.png",
+        "title": "Wallapapers",
+        "framework": "android",
+        "language": "kotlin",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+    },
+    {
+        "id": "6",
+        "image": "assets/images/1.png",
+        "title": "Weather Api",
+        "framework": "android",
+        "language": "kotlin",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+    }, {
+        "id": "7",
+        "image": "assets/images/1.png",
+        "title": "Restaurant Booking",
+        "framework": "angular",
+        "language": "typescript",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+    }, {
+        "id": "8",
+        "image": "assets/images/1.png",
+        "title": "Online Shopping",
+        "framework": "angular",
+        "language": "typescript",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+    }, {
+        "id": "9",
+        "image": "assets/images/1.png",
+        "title": "Portfolio",
+        "framework": "angular",
+        "language": "typescript",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+    }, {
+        "id": "10",
+        "image": "assets/images/1.png",
+        "title": "Library Dashboard",
+        "framework": "angular",
+        "language": "typescript",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
     }
 ]

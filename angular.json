@@ -24,7 +24,11 @@
                             "src/styles.scss"
 
                         ],
-                        "scripts": []
+                        "scripts": [
+                            "./node_modules/jquery/dist/jquery.min.js",
+                            "./node_modules/popper.js/dist/umd/popper.min.js",
+                            "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+                        ]
                     },
                     "configurations": {
                         "production": {
@@ -70,9 +74,8 @@
                         "tsConfig": "src/tsconfig.spec.json",
                         "scripts": [],
                         "styles": [
-                            "src/styles.scss",
-                            "node_modules/materialize-css/dist/css/materialize.min.css",
-                            "node_modules/bootstrap/scss/bootstrap.scss"
+                            "src/styles.scss"
+
                         ],
                         "assets": [
                             "src/assets",
