@@ -1,0 +1,22 @@
+[{
+    "id": "1",
+    "image": "assets/images/restaurant.png",
+    "title": "Restaurant Booking",
+    "framework": "angular",
+    "language": "typescript",
+    "description": "Restaurant booking template"
+}, {
+    "id": "2",
+    "image": "assets/images/online shopping.png",
+    "title": "Online Shopping",
+    "framework": "angular",
+    "language": "typescript",
+    "description": "Online shop template"
+}, {
+    "id": "3",
+    "image": "assets/images/1.png",
+    "title": "Portfolio",
+    "framework": "angular",
+    "language": "typescript",
+    "description": "My personal portfolio, The very website you are browing now"
+}]

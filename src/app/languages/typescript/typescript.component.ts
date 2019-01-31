@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
+import { TypescriptService } from '../../services/typescript.service';
 
 @Component({
   selector: 'app-typescript',
@@ -10,10 +10,10 @@ export class TypescriptComponent implements OnInit {
 
   public projects = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _typeScript: TypescriptService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._typeScript.getProjects()
     .subscribe(data => this.projects = data);
   }
 

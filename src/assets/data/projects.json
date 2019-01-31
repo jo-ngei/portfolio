@@ -4,7 +4,7 @@
         "title": "Andeqa",
         "framework": "android",
         "language": "java",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "An image and video sharing android social app with a firebase back-end"
     },
 
     {
@@ -13,63 +13,55 @@
         "title": "Fab Player",
         "framework": "android",
         "language": "java",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "Android video player implemented using Exo player"
     }, {
         "id": "3",
         "image": "assets/images/1.png",
         "title": "Handy",
         "framework": "android",
         "language": "java",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "An android app to help you with taking down your notes"
     }, {
         "id": "4",
         "image": "assets/images/1.png",
         "title": "Ongea",
         "framework": "android",
-        "language": "kotling",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "language": "kotlin",
+        "description": "A simple chat android application with a firebase back-end"
     }, {
         "id": "5",
         "image": "assets/images/1.png",
         "title": "Wallapapers",
         "framework": "android",
         "language": "kotlin",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
-    },
-    {
+        "description": "This is android app that uses Unsplash Api to search for images"
+    }, {
         "id": "6",
         "image": "assets/images/1.png",
         "title": "Weather Api",
         "framework": "android",
         "language": "kotlin",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "Restful api app that get weather conditions using the DarkSky Api"
     }, {
-        "id": "7",
+        "id": "1",
         "image": "assets/images/1.png",
         "title": "Restaurant Booking",
         "framework": "angular",
         "language": "typescript",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "Restaurant booking template"
     }, {
-        "id": "8",
+        "id": "2",
         "image": "assets/images/1.png",
         "title": "Online Shopping",
         "framework": "angular",
         "language": "typescript",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "Online shop template"
     }, {
-        "id": "9",
+        "id": "3",
         "image": "assets/images/1.png",
         "title": "Portfolio",
         "framework": "angular",
         "language": "typescript",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
-    }, {
-        "id": "10",
-        "image": "assets/images/1.png",
-        "title": "Library Dashboard",
-        "framework": "angular",
-        "language": "typescript",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestias asperiores nobis magnam facere quisquam nisi laborum adipisci aut? Impedit harum, sapiente voluptate ipsam fuga odit veritatis tempora illo non"
+        "description": "My personal portfolio, The very website you are browing now"
     }
 ]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
+import { PythonService } from '../../services/python.service';
 
 @Component({
   selector: 'app-python',
@@ -10,10 +10,10 @@ export class PythonComponent implements OnInit {
 
   public projects = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _pythonService: PythonService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._pythonService.getProjects()
     .subscribe(data => this.projects = data);
   }
 

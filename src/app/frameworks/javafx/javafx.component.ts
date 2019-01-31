@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
+import { JavafxService } from '../../services/javafx.service';
 
 @Component({
   selector: 'app-javafx',
@@ -10,10 +10,10 @@ export class JavafxComponent implements OnInit {
 
   public projects = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _javafxService: JavafxService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._javafxService.getProjects()
     .subscribe(data => this.projects = data);
   }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
+import { KotlinService } from '../../services/kotlin.service';
 
 @Component({
   selector: 'app-kotlin',
@@ -10,10 +10,10 @@ export class KotlinComponent implements OnInit {
 
   public projects = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _kotlinService: KotlinService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._kotlinService.getProjects()
     .subscribe(data => this.projects = data);
   }
 

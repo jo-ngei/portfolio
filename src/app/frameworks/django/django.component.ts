@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
+import { DjangoService } from '../../services/django.service';
 
 @Component({
   selector: 'app-django',
@@ -10,10 +10,10 @@ export class DjangoComponent implements OnInit {
 
   public projects = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _djangoService: DjangoService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._djangoService.getProjects()
     .subscribe(data => this.projects = data);
   }
 

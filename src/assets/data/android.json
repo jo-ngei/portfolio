@@ -1,0 +1,43 @@
+[{
+    "id": "1",
+    "image": "assets/images/1.png",
+    "title": "Andeqa",
+    "framework": "android",
+    "language": "java",
+    "description": "An image and video sharing android social app with a firebase back-end"
+}, {
+    "id": "2",
+    "image": "assets/images/1.png",
+    "title": "Fab Player",
+    "framework": "android",
+    "language": "java",
+    "description": "Android video player implemented using Exo player"
+}, {
+    "id": "3",
+    "image": "assets/images/1.png",
+    "title": "Handy",
+    "framework": "android",
+    "language": "java",
+    "description": "An android app to help you with taking down your notes"
+}, {
+    "id": "5",
+    "image": "assets/images/1.png",
+    "title": "Wallapapers",
+    "framework": "android",
+    "language": "kotlin",
+    "description": "This is android app that uses Unsplash Api to search for images"
+}, {
+    "id": "4",
+    "image": "assets/images/1.png",
+    "title": "Ongea",
+    "framework": "android",
+    "language": "kotlin",
+    "description": "A simple chat android application with a firebase back-end"
+}, {
+    "id": "6",
+    "image": "assets/images/1.png",
+    "title": "Weather Api",
+    "framework": "android",
+    "language": "kotlin",
+    "description": "Restful api app that get weather conditions using the DarkSky Api"
+}]

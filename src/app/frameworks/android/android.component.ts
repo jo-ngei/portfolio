@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
+import { AndroidService } from '../../services/android.service';
 
 @Component({
   selector: 'app-android',
@@ -10,10 +10,10 @@ export class AndroidComponent implements OnInit {
 
   public projects = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _androidService: AndroidService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._androidService.getProjects()
     .subscribe(data => this.projects = data);
   }
 

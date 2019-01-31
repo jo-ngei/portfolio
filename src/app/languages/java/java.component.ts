@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectsService } from '../../projects.service';
 import { mapChildrenIntoArray } from '@angular/router/src/url_tree';
+import { JavafxService } from '../../services/javafx.service';
+import { JavaService } from '../../services/java.service';
 
 @Component({
   selector: 'app-java',
@@ -12,10 +13,10 @@ export class JavaComponent implements OnInit {
   public projects = [];
   public javaApps = [];
 
-  constructor(private _projectsService: ProjectsService) { }
+  constructor(private _javaService: JavaService) { }
 
   ngOnInit() {
-    this._projectsService.getProjects()
+    this._javaService.getProjects()
     .subscribe(data => this.projects = data);
   }
 
